@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html>
+<head>
+        <meta charset="UTF-8">       
+        <link rel=stylesheet type="text/css" href="css/ProyectOCSS.css"> 
+        <!-- Referencias para el uso de fuentes e iconos -->
+        <link href='https://fonts.googleapis.com/css?family=Orbitron' rel='stylesheet'>
+        <link href='https://fonts.googleapis.com/css?family=Open Sans' rel='stylesheet'>
+        <link href='https://fonts.googleapis.com/css?family=Sahitya' rel='stylesheet'>
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css">
+        <!-- Referencias para el uso de scripts -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js"></script>
+	    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+        <script src="js/jquery.flexslider.js"></script>
+        <script type="text/javascript" src="js/abrir.js" ></script>
+        <!-- Declaracion de funciones en js -->
+        <script type="text/javascript" charset="utf-8">
+        $(window).load(function() {
+        $('.flexslider').flexslider({
+        touch: true,       
+    	pauseOnAction: false,
+    	pauseOnHover: false,
+            });
+        });
+        </script>       
+<body>
+    
+    <!-- Header -->
+    <header id="head">
+        <div id="fotoencabezado"><img src="imagenes/header.png" width=100% height=90px id="fotoportada"></div>
+        <!--declaración de la barra de menu-->
+        <div id="menuinicial">
+            <input type="checkbox" id="btn-menu">
+            <nav class="menu">
+                <ul>
+                    <li ><a href="Proyecto.html" >Inicio</a></li>
+                    <li><a href="Juegos.html">Juegos</a></li>
+                    <li><a href="ESports.html">E-Sports</a></li>    
+                    <li><a href="Tecnologia.html">Tecnología</a></li>
+                    <li><a href="JuegoF.html">Asteroids</a></li>
+                </ul>
+            </nav>
+        </div>
+        <!--fin de la declaración de la barra de menu-->
+        <!--declaración del slider-->
+        <div class="flexslider">
+            <ul class="slides">
+                <li>
+                    <img src="imagenes/MOBA.jpg" alt="">
+                    <section class="flex-caption">
+                        <p><button class="butn2" id="slider1">MOBA</button></p>
+                    </section>
+                </li>
+                <li>
+                    <img src="imagenes/shooter1.jpg" alt="">
+                    <section class="flex-caption">
+                        <p><button class="butn2" id="slider2">SHOOTER</button></p>
+                    </section>
+                </li>
+                <li>
+                    <img src="imagenes/BatleRoyal.jpg" alt="">
+                    <section class="flex-caption">
+                            <p><button class="butn2" id="slider3">BATTLE ROYALE</button></p>
+                    </section>
+                </li>
+                <li>
+                    <img src="imagenes/fifa.jpg" alt="">
+                    <section class="flex-caption">
+                        <p><button class="butn2" id="slider4">DEPORTE</button></p>
+                    </section>
+                </li>
+            </ul>
+        </div>
+        
+         <!--fin de la declaración del slider-->
+    </header>
+     <!-- Contenido -->
+     <section id="section">
+         <br>
+         <div id="titulo">
+             <div id="fototitulo"><img src="imagenes/control.png" width="65" height="65" ></div>
+             <div id="titulotexto">MEJORES JUEGOS EN LA ACTUALIDAD</div>           
+         </div>
+         <br>  
+         <div id="foto1"><img src="imagenes/overwatch.jpg" width="650" height="350"></div>
+         <br>
+         <div class="textoinicio">
+             <span>DAYS GONE</span>
+             <br>
+             Esta ambiciosa aventura de acción y supervivencia en mundo abierto es uno de los grandes títulos del año para tu PS4 y llega cortesía de Bend Studio, el equipo responsable de la magnífica saga Syphon Filter. Ambientada en los postapocalípticos bosques de Oregón, tras una pandemia que ha dejado el mundo plagado de zombis, nos ponemos en la piel del motociclista Deacon St. John que pronto descubrirá que el mayor peligro de este nuevo mundo no son los no-muertos, sino los humanos supervivientes.
+         </div>     
+         <div id="video1"><video src="videos/daysgone.mp4" width="550" height="350" controls></video></div>
+         <br>
+         <div class="textoinicio">
+             <span>THE DIVISION 2</span>
+             <br>
+             Lo último de Ubisoft nos sitúa en una fidedigna reconstrucción de Washington DC siete meses después de aquel fatídico viernes negro
+             en que viera la luz uno de los planes más malignos y demoledores que se hayan trazado para acabar con la raza humana, la transmisión de una contagiosa plaga a través de algo a los que los seres humanos no pueden renunciar… el dinero.
+         </div>     
+         <div id="video1"><video src="videos/thedivision.mp4" width="550" height="350" controls></video></div>
+         <br>
+         <div class="textoinicio">
+             <span>DEVIL MAY CRY 5</span>
+             <br>
+              Tras el fiasco que supuso el reboot DmC: Devil May Cry, los fans de esta saga demoniaca van a recuperar la ilusión con la sexta entrega de esta legendaria franquicia hack n' slash. Por supuesto los demonios vuelven a dar guerra, pero aquí están Dante, sin su brazo demoniaco, y su aliado el joven cazador Nero, a los que se les une un misterioso personaje llamado V que es capaz de convocar bestias: el pájaro Griffon, la pantera Shadow y el gigante Nightmare.
+         </div>     
+         <div id="video1"><video src="videos/devil.mp4" width="550" height="350" controls></video></div>
+         <br>
+         <div class="textoinicio">
+                <span>RESIDENT EVIL 2</span>
+                <br>
+                El legendario survival horror Resident Evil 2 recibe más que una capa de pintura nueva en este fabuloso remake que está cosechando notazas y reviews elogiosas desde el día de su lanzamiento. 
+                Con una nueva perspectiva en tercera persona y gráficas más que mejoradas, matar zombis con Leon y Claire en Raccoon City es más divertido que nunca. El nuevo contenido –mapas, tramas y puzles– tendrá satisfechos incluso a los que se lo pasaron cien veces en la PSX allá por 1998. Y para los recién llegados, avisamos: preparaos para pasar miedo.
+            </div>     
+            <div id="video1"><video src="videos/resident.mp4" width="550" height="350" controls></video></div>
+         <br>
+         <div class="textoinicio">
+                <span>ANTHEM</span>
+                <br>
+                El nivel de detalle del mundo que los dioses dejaron a medio construir es fastuoso y por supuesto puedes disparar a todo lo que se mueva: no te van a faltar enemigos. Participa en expediciones. consigue contratos, descubre los curiosos personajes del fuerte Tarsis o simplemente disfruta del vuelo en tus cuatro diferentes alabardas de Librancero hasta que las domines todas y disfruta de combates divertidos y vistosos en escenarios diseñados para recorrerlos a toda velocidad en cualquier dirección. 
+            </div>     
+            <div id="video1"><video src="videos/anthem.mp4" width="550" height="350" controls></video></div>
+         <br>
+    </section>
+    <!-- Pie de pagina -->
+    <footer id="footer">
+        <div class="footer1">
+            <div>
+                <p>2019 GameZone.com</p>
+                <p>Un proyecto de Alejandro Vivanco</p>
+                <p>Pontificia Universidad Católica del Ecuador</p>
+                <p>La mejor página de videojuegos y tecnología</p>
+                <p>Copyright © 2019 GameZone.com Todos los derechos reservados</p>
+            </div>
+            <div class="redessociales">
+                <p>Redes Sociales</p>
+                <a class="btn" href="#" id="facebook">
+                    <i class="fab fa-facebook-f"></i>
+                  </a>
+                  <a class="btn" href="#" id="twitter">
+                    <i class="fab fa-twitter"></i>
+                  </a>
+                  <a class="btn" href="" id="mail">
+                    <i class="fab fa-google"></i>
+                  </a>
+                  <a class="btn" href="#" id="instagram">
+                    <i class="fab fa-instagram"></i>
+                  </a>
+                  <a class="btn" href="#" id="youtube">
+                    <i class="fab fa-youtube"></i>
+                  </a>
+            </div>
+        </div>
+
+            
+    </footer>    
+</body>
+</html>
+

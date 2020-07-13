@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html>
+<head>
+        <meta charset="UTF-8">       
+        <link rel=stylesheet type="text/css" href="css/Juegos.css"> 
+        <!-- Referencias para el uso de fuentes e iconos -->
+        <link href='https://fonts.googleapis.com/css?family=Orbitron' rel='stylesheet'>
+        <link href='https://fonts.googleapis.com/css?family=Open Sans' rel='stylesheet'>
+        <link href='https://fonts.googleapis.com/css?family=Sahitya' rel='stylesheet'>
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css">
+        <!-- Referencias para el uso de scripts -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js"></script>
+	    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+        <script src="js/jquery.flexslider.js"></script>
+        <script type="text/javascript" src="js/abrir.js" ></script>
+        <!-- Declaracion de funciones en js -->
+        <script type="text/javascript" charset="utf-8">
+        $(window).load(function() {
+        $('.flexslider').flexslider({
+        touch: true,       
+    	pauseOnAction: false,
+    	pauseOnHover: false,
+            });
+        });
+        </script>       
+<body>
+    
+    <!-- Header -->
+    <header id="head">
+        <div id="fotoencabezado"><img src="imagenes/header.png" width=100% height=90px id="fotoportada"></div>
+        <!--declaración de la barra de menu-->
+        <div id="menuinicial">
+            <input type="checkbox" id="btn-menu">
+            <nav class="menu">
+                <ul>
+                    <li ><a href="Proyecto.html" >Inicio</a></li>
+                    <li><a href="Juegos.html">Juegos</a></li>
+                    <li><a href="ESports.html">E-Sports</a></li>    
+                    <li><a href="Tecnologia.html">Tecnología</a></li>
+                    <li><a href="JuegoF.html">Asteroids</a></li>
+                </ul>
+            </nav>
+        </div>
+        <!--fin de la declaración de la barra de menu-->
+        <!--declaración del slider-->
+        <div class="flexslider">
+            <ul class="slides">
+                <li>
+                    <img src="imagenes/retrogames.jpg" alt="">
+                    <section class="flex-caption">
+                        <p><button class="butn2" id="slider9">RETRO</button></p>
+                    </section>
+                </li>
+                <li>
+                    <img src="imagenes/mobilegames.jpg" alt="">
+                    <section class="flex-caption">
+                        <p><button class="butn2" id="slider10">Móvil</button></p>
+                    </section>
+                </li>
+                <li>
+                    <img src="imagenes/consolas.jpg" alt="">
+                    <section class="flex-caption">
+                            <p><button class="butn2" id="slider11">CONSOLA</button></p>
+                    </section>
+                </li>
+                <li>
+                    <img src="imagenes/PC.jpg" alt="">
+                    <section class="flex-caption">
+                        <p><button class="butn2" id="slider12">PC</button></p>
+                    </section>
+                </li>
+            </ul>
+        </div>
+        
+         <!--fin de la declaración del slider-->
+    </header>
+     <!-- Contenido -->
+     <section id="section">
+         <br>
+         <!-- Juegos Retro -->
+         <div id="titulo">
+             <div id="fototitulo"><img src="imagenes/pinball.png" width="65" height="65" ></div>
+             <div id="titulotexto">JUEGOS RETRO</div>           
+         </div>
+         <br>  
+         <div id="foto1"><img src="imagenes/retro.gif" width="650" height="350"></div>
+         <br>
+         <div class="textoinicio">
+             <span>Excitebike</span>
+             <br>
+             Carreras de motos contra el crono, rivales y obstáculos. Para hacer podio, hay cuidar la temperatura del motor y los saltos. Dificultad por las nubes.
+         </div>    
+         <br> 
+         <div id="video1"><img src="imagenes/excitebike.png" width="550" height="350"></video></div>
+         <br>
+         <div class="textoinicio">
+             <span>Ice Climber</span>
+             <br>
+             Popo y Nala tienen que destrozar 32 techos helados a base de martillazos, y al mismo tiempo acabar con osos polares, aves y focas. Tan divertido como suena.
+         </div>  
+         <br>   
+         <div id="video1"><img src="imagenes/iceclimber.png" width="550" height="350"></video></video></div>
+         <br>
+         <div class="textoinicio">
+             <span>Mario Bros</span>
+             <br>
+             Mario estrena nombre, hermano y juego propio en Famicom. Es calcado al arcade, y se versionó para otras 8 máquinas diferentes.
+         </div>    
+         <br> 
+         <div id="video1"><img src="imagenes/mario.png" width="550" height="350"></video></div>
+         <br>
+         <div class="textoinicio">
+                <span>Pinball</span>
+                <br>
+                Divertido simulador de pinball, que incluye una fase de bonus con toque Arkanoid, en la que Mario tiene que salvar a la adorada Pauline.
+            </div>
+            <br>     
+            <div id="video1"><img src="imagenes/pinball2.png" width="550" height="350"></video></div>
+         <br>
+         <div class="textoinicio">
+                <span>Donkey Kong</span>
+                <br>
+                Conversión perfecta del mítico arcade en el que nacieron Donkey, Mario (Jumpman) y Peach (Pauline). Divertidísimo.
+            </div>  
+            <br>   
+            <div id="video1"><img src="imagenes/donk.png" width="550" height="350"></video></div>
+         <br>
+         <!-- Juegos de Celular -->
+         <br>
+         <div id="titulo">
+             <div id="fototitulo"><img src="imagenes/celular.png" width="65" height="65" ></div>
+             <div id="titulotexto">JUEGOS PARA CELULAR</div>           
+         </div>
+         <br>
+            <div class="textoinicio">
+                <span>Asphalt 9: Legends</span>
+                <br>
+                Otro de los juegos mejores juegos para Android más destacados de 2019 es Asphalt 9: Legends. La undécima entrega de la saga Asphalt desarrollada por Gameloft sigue las mismas premisas de todo buen juego de conducción (gráficos increíbles, gran variedad de vehículos, etc). 
+            </div>     
+            <div id="video1"><video src="videos/asphalt.mp4" width="550" height="350" controls></video></div>
+        <br> 
+        <div class="textoinicio">
+            <span>Clash of Clans</span>
+            <br>
+            Uno de los mejores juegos Android que podéis encontrar en la Play Store es Clash of Clans, un videojuego free-to-play desarrollado por Supercell. En este juego de estrategia, algunos de nuestros objetivos son tener que construir nuestra propia aldea, entrenar tropas y realizar hechizos para atacar a otros jugadores en línea. También se pueden crear clanes entre diferentes usuarios para colaborar entre ellos.
+        </div>     
+        <div id="video1"><video src="videos/clashofclans.mp4" width="550" height="350" controls></video></div>
+    <br> 
+     <div class="textoinicio">
+                <span>Clash Royale </span>
+                <br>
+                Del éxito de Clash of Clans surgió otro videojuego basado en su universo: Clash Royale. Se trata de un juego Android de estrategia que ha logrado conquistar a grandes y pequeños hasta batir récords de descargas. 
+            </div>     
+            <div id="video1"><video src="videos/clashroyale.mp4" width="550" height="350" controls></video></div>
+        <br> 
+        <!-- Juegos de Consola -->
+        <div id="titulo">
+            <div id="fototitulo"><img src="imagenes/consola.png" width="65" height="65" ></div>
+            <div id="titulotexto">JUEGOS PARA CONSOLA</div>           
+        </div>
+        <br>
+           <div class="textoinicio">
+               <span>Far Cry 5</span>
+               <br>
+               Un "shooter" en primera persona, ambientado en la América profunda en que nos enfrentamos a una secta -sólos o en modo cooperativo- por la fuerza de las armas.
+           </div>     
+           <div id="video1"><video src="videos/farcry5.mp4" width="550" height="350" controls></video></div>
+       <br> 
+       <div class="textoinicio">
+           <span>Yakuza 6</span>
+           <br>
+           Es la aventura más ambiciosa protagonizada por Kiryu Kazuma. Un juego lleno de investigación y combates para  descubrir todos los secretos de la mafia japonesa.
+       </div>     
+       <div id="video1"><video src="videos/yakuza6.mp4" width="550" height="350" controls></video></div>
+   <br> 
+    <div class="textoinicio">
+               <span>Monster Hunter World </span>
+               <br>
+               Un nuevo continente lleno de criaturas monstruosas que podíamos cazar en solitario o en el modo online. La variedad de armas, las trampas y el entorno le daban una increíble profundidad. 
+           </div>     
+           <div id="video1"><video src="videos/monster.mp4" width="550" height="350" controls></video></div>
+       <br> 
+       <!-- Juegos para PC -->
+       <div id="titulo">
+        <div id="fototitulo"><img src="imagenes/monitor.png" width="65" height="65" ></div>
+        <div id="titulotexto">JUEGOS PARA PC</div>           
+    </div>
+    <br>
+       <div class="textoinicio">
+           <span>Half-Life 2</span>
+           <br>
+           Tras convertirse el primero en el catalogado como “mejor juego de PC de la historia”, ‘Half-Life 2’ tenía la difícil tarea de mantener el listón igual de alto. Este puesto en la lista demuestra hasta qué punto lo consiguió, convirtiéndose en uno de los títulos que marcaría el camino a seguir por la industria en los años siguientes en lo que se refiere a gráficos, físicas, inteligencia artificial y, por encima de todo, narrativa.
+       </div>     
+       <div id="video1"><video src="videos/halflife.mp4" width="550" height="350" controls></video></div>
+   <br> 
+   <div class="textoinicio">
+       <span>Grand Theft Auto V</span>
+       <br>
+       Convirtiéndose en el segundo juego que más copias físicas ha conseguido vender, sólo por detrás de un fenómeno como ‘Wii Sports’ (y sin tener en cuenta que sumando las digitales la cifra puede verse ampliamente superada), ‘GTA V’ se ha convertido en un fenómeno de masas que después de cinco años aún sigue copando las listas de ventas. No está ahí por suerte, claro, es uno de los mundos abiertos más atractivos y divertidos que jamás se ha creado.
+   </div>     
+   <div id="video1"><video src="videos/gta5.mp4" width="550" height="350" controls></video></div>
+<br> 
+<div class="textoinicio">
+           <span>BioShock</span>
+           <br>
+           Historia, gráficos, jugabilidad… ‘BioShock’ tiene todo lo que le podrías pedir a un FPS, pero además se las apañó para llevar un paso más allá el cómo se contaban las historias dentro de una aventura de acción. Un viaje a las profundidades para descubrir una ciudad submarina en la que una utopía se ha convertido en un absoluto infierno que ha escapado al control de sus creadores.
+       </div>     
+       <div id="video1"><video src="videos/bioshock.mp4" width="550" height="350" controls></video></div>
+   <br> 
+    </section>
+    <!-- Pie de pagina -->
+    <footer id="footer">
+        <div class="footer1">
+            <div>
+                <p>2019 GameZone.com</p>
+                <p>Un proyecto de Alejandro Vivanco</p>
+                <p>Pontificia Universidad Católica del Ecuador</p>
+                <p>La mejor página de videojuegos y tecnología</p>
+                <p>Copyright © 2019 GameZone.com Todos los derechos reservados</p>
+            </div>
+            <div class="redessociales">
+                <p>Redes Sociales</p>
+                <a class="btn" href="#" id="facebook">
+                    <i class="fab fa-facebook-f"></i>
+                  </a>
+                  <a class="btn" href="#" id="twitter">
+                    <i class="fab fa-twitter"></i>
+                  </a>
+                  <a class="btn" href="" id="mail">
+                    <i class="fab fa-google"></i>
+                  </a>
+                  <a class="btn" href="#" id="instagram">
+                    <i class="fab fa-instagram"></i>
+                  </a>
+                  <a class="btn" href="#" id="youtube">
+                    <i class="fab fa-youtube"></i>
+                  </a>
+            </div>
+        </div>
+
+            
+    </footer>    
+</body>
+</html>
+

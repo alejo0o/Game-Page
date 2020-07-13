@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html>
+<head>
+        <meta charset="UTF-8">
+        <link rel=stylesheet type="text/css" href="css/Tecnologia.css"> 
+        <!-- Referencias para el uso de fuentes e iconos -->
+        <link href='https://fonts.googleapis.com/css?family=Orbitron' rel='stylesheet'>
+        <link href='https://fonts.googleapis.com/css?family=Open Sans' rel='stylesheet'>
+        <link href='https://fonts.googleapis.com/css?family=Sahitya' rel='stylesheet'>
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css">
+        <!-- Referencias para el uso de scripts -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js"></script>
+	    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+        <script src="js/jquery.flexslider.js"></script>
+        <script type="text/javascript" src="js/abrir.js" ></script>
+        <!-- Declaracion de funciones en js -->
+        <script type="text/javascript" charset="utf-8">
+        $(window).load(function() {
+        $('.flexslider').flexslider({
+        touch: true,       
+    	pauseOnAction: false,
+    	pauseOnHover: false,
+            });
+        });
+        </script>  
+</head>
+<body>
+
+    <!-- Header -->
+    <header id="head">
+            <div id="fotoencabezado"><img src="imagenes/header.png" width=100% height=90px id="fotoportada"></div>
+            <!--declaración de la barra de menu-->
+            <div id="menuinicial">
+                <input type="checkbox" id="btn-menu">
+                <nav class="menu">
+                    <ul>
+                        <li ><a href="Proyecto.html" >Inicio</a></li>
+                        <li><a href="Juegos.html">Juegos</a></li>
+                        <li><a href="ESports.html">E-Sports</a></li>    
+                        <li><a href="Tecnologia.html">Tecnología</a></li>
+                        <li><a href="JuegoF.html">Asteroids</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <!--fin de la declaración de la barra de menu-->
+            <!--declaración del slider-->
+        <div class="flexslider">
+                <ul class="slides">
+                    <li>
+                        <img src="imagenes/fondomsi.jpg" alt="">
+                        <section class="flex-caption">
+                                <p><button class="butn2" id="slider5">MSI</button></p>
+                        </section>
+                    </li>
+                    <li>
+                        <img src="imagenes/acer.jpg" alt="">
+                        <section class="flex-caption">
+                                <p><button class="butn2" id="slider6">ACER</button></p>
+                        </section>
+                    </li>
+                    <li>
+                        <img src="imagenes/alienware.jpg" alt="">
+                        <section class="flex-caption">
+                                <p><button class="butn2" id="slider7">ALIENWARE</button></p>
+                        </section>
+                    </li>
+                    <li>
+                        <img src="imagenes/asus.jpg" alt="">
+                        <section class="flex-caption">
+                                <p><button class="butn2" id="slider8">ASUS</button></p>
+                        </section>
+                    </li>
+                </ul>
+            </div>
+            
+             <!--fin de la declaración del slider-->
+            
+    </header>
+     <!-- Contenido -->
+     <section id="section">
+            <br>
+            <div id="titulo">
+                <div id="fototitulo"><img src="imagenes/laptop.png" width="65" height="65" ></div>
+                <div id="titulotexto">MEJORES LAPTOPS EN LA ACTUALIDAD</div>           
+            </div>
+            <br>  
+            <div id="foto1"><img src="imagenes/alien.jpg" width="650" height="350"></div>
+            <br>
+            <div class="textoinicio">
+                <span>ASUS MOTHERSHIP</span>
+                <br>
+                Asus Mothership es una laptop dedicada al gaming. Si tenemos en cuenta que la pantalla es una FullHD de 17,3 pulgadas con 3 milisegundos de respuesta y 144Hz de tasa de refresco no está nada mal para jugar.
+                Bajo la pantalla tenemos procesador Intel Core i9-8950HK, gráfica NVidia GeForce RTX 2080, hasta 64GB de RAM y tres unidades SSD de 512GB. La ventilación es uno de los aspectos que Asus más dice haber cuidado. Consta de ocho tuberías de cobre que transfieren el calor a las esquinas donde se disipan gracias a dos ventiladores de 12 voltios. El ROG Mothership pesa 4,7 kilos y tiene un grosor total de 29,9mm.
+            </div>     
+            <div id="video1"><video src="videos/mothership.mp4" width="550" height="350" controls></video></div>
+            <br>
+            <div class="textoinicio">
+                <span>PREDATOR HELIOS 700</span>
+                <br>
+                Acer, en su conferencia anual desde Nueva York ha lanzado un auténtico bombazo en el mercado del gaming portatil. Según James Lin, la idea es ofrecer "unos portátiles gaming potentes y asequibles".
+                Acer Helios 700 utilizará la GPU NVIDIA GeForce RTX 2080 o 2070, siendo este el eje sobre el que girará todo el portátil, ya que como hemos comentado, estará enfocado en el mundo del videojuego. En paralela importancia llevará como procesador el Intel Core i9, uno de los procesadores más potentes del mercado con overclocking. Además, 64GB de RAM DDR4 coronan la composición.
+                En cuanto a la pantalla, será de 17 pulgadas con IPS FHD y 144hz de ratio de refresco. La respuesta, quizás un poco lenta, será de 3ms con tecnología NVIDIA G-SYNC. 
+            </div>     
+            <div id="video1"><video src="videos/helios700.mp4" width="550" height="350" controls></video></div>
+            <br>
+            <div class="textoinicio">
+                <span>MSI GT76 TITAN</span>
+                <br>
+                Cualquier que vea las especificaciones de este MSI GT76 Titan no se creería que estamos ante un portátil gaming. Y es que MSI ha creado un demencial portátil que guarda en su interior hardware de un PC de escritorio con todas las de la ley, Intel Core i9-9900K, una Nvidia GeForce RTX 2080, pantalla de 17.3 pulgadas y una tasa de refresco de 144 HZ son sus cualidades para ser uno de los portátiles más potentes jamás construido.
+            </div>     
+            <div id="video1"><video src="videos/titan.mp4" width="550" height="350" controls></video></div>
+            <br>
+            <div class="textoinicio">
+                   <span>ALIENWARE AREA 51M</span>
+                   <br>
+                   Lo primero que destaca en este nuevo portátil gaming de Alienware es su potencia. Para conseguirla cuenta en su interior con especificaciones que generalmente se han reservado para equipos de escritorio. Por ejemplo encontramos un procesador de novena generación Intel Core 19-9900K con ocho núcleos. La memoria RAM asciende a 64 GB y la tarjeta gráfica (aspecto esencial en estos productos) es una Nvidia GeForce RTX 2080 de 8 GB.
+                   La pantalla del Alienware Area-51m alcanza las 17,3 pulgadas de tamaño y viene con un panel IPS a 144Hz. Es un portátil de un tamaño considerable y por lo tanto su peso también lo es, alcanza los 3,8 kilogramos aproximadamente.  
+               </div>     
+               <div id="video1"><video src="videos/area51.mp4" width="550" height="350" controls></video></div>
+            <br>
+            <div class="textoinicio">
+                   <span>ASUS ROG ZEPHYRUS</span>
+                   <br>
+                   El revolucionario portátil de gaming ROG Zephyrus es el fruto de la determinación de ROG por innovar constantemente. Aunque es más fino que el resto de portátiles de ROG, lleva el hardware necesario para desafiar a ordenadores de sobremesa de alta gama: gráficos NVIDIA® RTX 2080 con diseño Max-Q, procesador Intel® Core™ de 9ª generación, una pantalla opcional de 144 Hz y Windows 10 Pro. Gracias al nuevo Sistema Aerodinámico Activo (AAS), ROG ha conseguido reducir el grosor del chasis a 16,9-17,9 mm sin renunciar a una refrigeración de vanguardia ni a bajas emisiones de ruido. También incluye un teclado RGB que resultará familiar a los gamers acostumbrados a jugar con PC de sobremesa.
+               </div>     
+               <div id="video1"><video src="videos/zephyrus.mp4" width="550" height="350" controls></video></div>
+            <br>
+       </section>
+    <!-- Pie de pagina -->
+    <footer id="footer">
+            <div class="footer1">
+                <div>
+                    <p>2019 GameZone.com</p>
+                    <p>Un proyecto de Alejandro Vivanco</p>
+                    <p>Pontificia Universidad Católica del Ecuador</p>
+                    <p>La mejor página de videojuegos y tecnología</p>
+                    <p>Copyright © 2019 GameZone.com Todos los derechos reservados</p>
+                </div>
+                <div class="redessociales">
+                    <p>Redes Sociales</p>
+                            <a class="btn" href="#" id="facebook">
+                              <i class="fab fa-facebook-f"></i>
+                            </a>
+                            <a class="btn" href="#" id="twitter">
+                              <i class="fab fa-twitter"></i>
+                            </a>
+                            <a class="btn" href="" id="mail">
+                              <i class="fab fa-google"></i>
+                            </a>
+                            <a class="btn" href="#" id="instagram">
+                              <i class="fab fa-instagram"></i>
+                            </a>
+                            <a class="btn" href="#" id="youtube">
+                              <i class="fab fa-youtube"></i>
+                            </a>
+                </div>
+            </div>
+    
+                
+        </footer>
+</body>
+</html>
